@@ -29,5 +29,10 @@
       "source": "/proxy/:match*",
       "destination": "/:match*"
     }
-  ]
+  ],
+  "functions": {
+    "api/index.ts": {
+      "maxDuration": 10
+    }
+  }
 }
